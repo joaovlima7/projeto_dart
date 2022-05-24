@@ -1,0 +1,8 @@
+<!--> 
+- WebView 
+É um componente do sistema com tecnologia do Google Chrome que permite que apps Android exibam conteúdo da Web.
+
+- Null Safety
+Recurso de linguagem que afeta como você deve visualizar valores nulos para suas variáveis, parâmetros e campos: essa é a segurança nula.
+
+
