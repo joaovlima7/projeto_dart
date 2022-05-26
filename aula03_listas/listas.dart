@@ -1,4 +1,4 @@
-void mian() {
+void main() {
   //Listas são estruturas que armazenam mais de um valor a uma variável
 
   //Criando uma lista
@@ -36,6 +36,11 @@ void mian() {
    * length() : Retorna o tamanho da lista
    */
 
-  var listaNomes =
-   
+  var listaNomes = ['Jose Maria', 'Pedro da Silva', 'Cristiana Pereira'];
+
+  print('Primeiro nome: ${listaNomes.first}');
+  print('último nome: ${listaNomes.last}');
+  print('O lista está vazio? ${listaNomes.isEmpty}');
+  print('Tamanho da lista: ${listaNomes.length}');
+  print('=' * 70);
 }
