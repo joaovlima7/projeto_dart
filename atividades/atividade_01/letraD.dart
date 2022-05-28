@@ -2,15 +2,20 @@
 //Atividade 01
 //Letra D
 
-//Declarando
 
 import 'dart:io';
 
 void main() {
+  //Declaração
 
-//Entrada de dados
-  stdout.write('Entre com o 1º número: ');
-  double numero1 = double.parse(stdin.readLineSync()!);
+  double nota1 = 7;
+  double nota2 = 6;
+  double nota3 = 8;
+  double nota4 = 9;
 
+  print('As notas do aluno é: $nota1, $nota2, $nota3, $nota4');
 
+  double media = (nota1 + nota2 + nota3 + nota4) / 4;
+
+  print('A média do aluno é: $media');
 }
